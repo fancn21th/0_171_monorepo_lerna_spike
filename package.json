@@ -8,6 +8,7 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "dev": "lerna run start --scope=baseline"
+    "dev": "lerna run start --scope=baseline",
+    "new-version": "lerna version --conventional-commits --yes"
   }
 }
